@@ -1,0 +1,100 @@
+Must keep track of:
+    - What day it is
+    - What time it is
+    - Where the party was located at a given time and day
+    - What the weather is like
+    - Way to write notes on what happened on a given day
+
+Information stored for each day
+    - What day it is
+        - Store this as an integer day from like 1st of this era. Current year is... 1542 of the 3rd era
+        - From this calculate current year, month, day and day of the week.
+    - Events [have start time, end time, and what happened]. If only start time, they are instantaneous.
+    - How the moons are located.
+    - Weather
+        - Keep it simple this time
+        - Only go forward in time, don't save it anywhere. You're never going to go back in time *anyways*
+        - Start at starting time and just go from there each time.
+
+ Calendar  Day  Month  Era  Year
+
+
+ ██╗    ██████╗     ██████╗     ██╗  ██╗    ███████╗     ██████╗     ███████╗     █████╗      █████╗      ██████╗
+███║    ╚════██╗    ╚════██╗    ██║  ██║    ██╔════╝    ██╔════╝     ╚════██║    ██╔══██╗    ██╔══██╗    ██╔═████╗
+╚██║     █████╔╝     █████╔╝    ███████║    ███████╗    ███████╗         ██╔╝    ╚█████╔╝    ╚██████║    ██║██╔██║
+ ██║    ██╔═══╝      ╚═══██╗    ╚════██║    ╚════██║    ██╔═══██╗       ██╔╝     ██╔══██╗     ╚═══██║    ████╔╝██║
+ ██║    ███████╗    ██████╔╝         ██║    ███████║    ╚██████╔╝       ██║      ╚█████╔╝     █████╔╝    ╚██████╔╝
+ ╚═╝    ╚══════╝    ╚═════╝          ╚═╝    ╚══════╝     ╚═════╝        ╚═╝       ╚════╝      ╚════╝      ╚═════╝
+
+ ██     ██████      ██████      ██   ██     ███████      ██████      ███████      █████       █████       ██████
+███          ██          ██     ██   ██     ██          ██                ██     ██   ██     ██   ██     ██  ████
+ ██      █████       █████      ███████     ███████     ███████          ██       █████       ██████     ██ ██ ██
+ ██     ██               ██          ██          ██     ██    ██        ██       ██   ██          ██     ████  ██
+ ██     ███████     ██████           ██     ███████      ██████         ██        █████       █████       ██████
+
+ Cloudy (drizzle)
+
+			"\033[38;5;250m     .--.    \033[0m",
+			"\033[38;5;250m  .-(    ).  \033[0m",
+			"\033[38;5;250m (___.__)__) \033[0m",
+
+Fog (all heaviness), maybe change it up for different heaviness
+
+			""\033[38;5;251m _ - _ - _ - \033[0m",
+			"\033[38;5;251m  _ - _ - _  \033[0m",
+			"\033[38;5;251m _ - _ - _ - \033[0m",
+
+# Normal/Heavy Rain
+			"\033[38;5;240;1m     .-.     \033[0m",
+			"\033[38;5;240;1m    (   ).   \033[0m",
+			"\033[38;5;240;1m   (___(__)  \033[0m",
+			"\033[38;5;21;1m  ‚ʻ‚ʻ‚ʻ‚ʻ   \033[0m",
+			"\033[38;5;21;1m  ‚ʻ‚ʻ‚ʻ‚ʻ   \033[0m",
+
+Light rain
+			"\033[38;5;250m     .-.     \033[0m",
+			"\033[38;5;250m    (   ).   \033[0m",
+			"\033[38;5;250m   (___(__)  \033[0m",
+			"\033[38;5;111m    ʻ ʻ ʻ ʻ  \033[0m",
+			"\033[38;5;111m   ʻ ʻ ʻ ʻ   \033[0m",
+
+Nothing
+			"\033[38;5;226m    \\   /    \033[0m",
+			"\033[38;5;226m     .-.     \033[0m",
+			"\033[38;5;226m  ‒ (   ) ‒  \033[0m",
+			"\033[38;5;226m     `-᾿     \033[0m",
+			"\033[38;5;226m    /   \\    \033[0m",
+
+Normal/Heavy snow
+			"\033[38;5;240;1m     .-.     \033[0m",
+			"\033[38;5;240;1m    (   ).   \033[0m",
+			"\033[38;5;240;1m   (___(__)  \033[0m",
+			"\033[38;5;255;1m   * * * *   \033[0m",
+			"\033[38;5;255;1m  * * * *    \033[0m",
+
+Light Snow
+			"\033[38;5;250m     .-.     \033[0m",
+			"\033[38;5;250m    (   ).   \033[0m",
+			"\033[38;5;250m   (___(__)  \033[0m",
+			"\033[38;5;255m    *  *  *  \033[0m",
+			"\033[38;5;255m   *  *  *   \033[0m",
+
+Thunderstorm
+    .--.
+ .-( __ ).
+(__./ /___)
+   /_ ,'
+    /'
+
+ _`/"".-.
+  ,\_(   ).
+   /(___(__)
+   ‚ʻ‚ʻ‚ʻ‚ʻ
+   ‚ʻ‚ʻ‚ʻ‚ʻ
+
+
+
+
+
+
+

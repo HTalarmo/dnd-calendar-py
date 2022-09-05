@@ -1,0 +1,38 @@
+# Light Unfrozen,,,# Light Frozen,,
+20,Light fog,1d8,20,Light fog,1d6
+40,Medium fog,1d6,40,Light fog,1d8
+50,Drizzle,1d4,50,Medium fog,1d4
+75,Drizzle,2d12,60,Light snow,1d1
+90,Light rain,1d4,75,Light snow,1d4
+100,Light rain,1d1,100,Light snow,2d12
+,,,,,
+,,,,,
+,,,,,
+# Medium Unfrozen,,,# Medium Frozen,,
+10,Medium fog,1d8,10,Medium fog,1d6
+20,Medium fog,1d12 ,20,Medium fog,1d8
+30,Heavy fog,1d4 ,30,Heavy fog,1d4
+35,Rain,1d4,50,Medium snow,1d4
+70,Rain,1d8,90,Medium snow,1d8
+90,Rain,2d12,100,Medium snow,2d12
+100,Rain,1d4,,,
+,,,,,
+,,,,,
+# Heavy unfrozen,,,# Heavy Frozen,,
+10,Heavy fog,1d8,10,Medium fog,1d8
+20,Heavy fog,2d6,20,Heavy fog,2d6
+50,Heavy rain,1d12,60,Light snow,2d12
+70,Heavy rain,2d12,90,Medium snow,1d8
+85,Heavy rain,1d8,100,Heavy snow,1d6
+90,Thunderstorm,1d1,,,
+100,Thunderstorm,1d3,,,
+,,,,,
+,,,,,
+# Torrential unfrozen,,,# Torrential frozen,,
+5,Heavy fog,1d8,5,Heavy fog,1d8
+10,Heavy fog,2d6,10,Heavy fog,2d6
+30,Heavy rain,2d6,50,Heavy snow,1d4
+60,Heavy rain,2d12,90,Heavy snow,1d8
+80,Heavy rain,2d6,100,Heavy snow,2d12
+95,Thunderstorm,1d3,,,
+100,Thunderstorm,1d6,,,
